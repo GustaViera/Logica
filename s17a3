@@ -1,0 +1,10 @@
+numero_pessoas = int(input("digite um numero de pessoas: "))
+Tipo_reuniao = input("digite o tipo de reunião [executiva]: ")
+if numero_pessoas >=1 and numero_pessoas <=5:
+    print ("sala pequena")
+elif numero_pessoas > 5 and numero_pessoas <= 15:
+    print ("sala média")
+elif  Tipo_reuniao == "executiva" or numero_pessoas > 15:
+    print("sala grande")
+else:
+    print("reunião cancelada")
